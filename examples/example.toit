@@ -12,7 +12,7 @@ import ..src.stepper_28BYJ48
 import math
 
 main:
-  my_motor := stepper_motor 15 16 17 18
+  my_motor := stepper_motor 15 16 17 18 // Four GPIO pins needed
   
   10.repeat:
     my_motor.rotate_degrees -90.5 2
