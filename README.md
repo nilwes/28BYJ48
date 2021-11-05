@@ -11,10 +11,17 @@ the other on motor pins 2 & 4.
 A simple usage example.
 
 ```
-import 28BYJ48
+import math
 
 main:
-  ...
+  my_motor := stepper_motor 15 16 17 18
+  
+  10.repeat:
+    my_motor.rotate_degrees -90.5 2
+    my_motor.rotate_degrees 90.5 2
+    my_motor.rotate_radians -math.PI 1
+    my_motor.rotate_radians 2*math.PI 1
+    my_motor.rotate_gradians 100 1
 ```
 
 See the `examples` folder for more examples.
