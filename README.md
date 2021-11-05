@@ -22,6 +22,11 @@ main:
     my_motor.rotate_radians -math.PI 1
     my_motor.rotate_radians 2*math.PI 1
     my_motor.rotate_gradians 100 1
+    10.repeat:
+      my_motor.take_step_cw
+    sleep --ms=500
+    512.repeat: // Full revolution
+      my_motor.take_step_ccw
 ```
 
 See the `examples` folder for more examples.
