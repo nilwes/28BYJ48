@@ -31,7 +31,7 @@ main:
 
 See the `examples` folder for more examples.
 
-## Technical Specifications
+## Technical Specifications - 28BYJ-48
 
 ```
 Rated Voltage: 5V DC
