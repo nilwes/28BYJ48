@@ -31,6 +31,15 @@ main:
 
 See the `examples` folder for more examples.
 
+## Technical Specifications
+
+Rated Voltage: 5V DC
+Number of Phases: 4
+Stride Angle: 5.625°/64
+Pull in torque: 300 gf.cm
+Insulated Power: 600VAC/1mA/1s
+Coil: Unipolar 5 lead coil
+
 ## Features and bugs
 
 Please file feature requests and bugs at the [issue tracker][tracker].
